@@ -1,0 +1,6 @@
+@CibusMed_App_HostAddress = http://localhost:5136
+
+GET {{CibusMed_App_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

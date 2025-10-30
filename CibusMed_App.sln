@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CibusMed_App", "CibusMed_App.csproj", "{EDE5ACAB-6699-4116-85F6-9EC38B55C5DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CibusMed.WPF", "..\CibusMed.WPF\CibusMed.WPF.csproj", "{30D58825-C764-4A57-B85A-95821F71EAF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDE5ACAB-6699-4116-85F6-9EC38B55C5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE5ACAB-6699-4116-85F6-9EC38B55C5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE5ACAB-6699-4116-85F6-9EC38B55C5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE5ACAB-6699-4116-85F6-9EC38B55C5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D58825-C764-4A57-B85A-95821F71EAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D58825-C764-4A57-B85A-95821F71EAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D58825-C764-4A57-B85A-95821F71EAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D58825-C764-4A57-B85A-95821F71EAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36FB6E7F-C7E6-4626-B64B-DBB2BAFA056E}
+	EndGlobalSection
+EndGlobal
