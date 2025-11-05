@@ -30,6 +30,7 @@ public class OrdersController : ControllerBase
         var query = _context.Orders
             .Include(o => o.Customer)
             .Include(o => o.OrderItems)
+            .ThenInclude(oi => oi.Product)
             .AsQueryable();
 
         // Apply filtering
@@ -63,7 +64,8 @@ public class OrdersController : ControllerBase
                 CustomerName = o.Customer.Name,
                 CreatedAtUtc = o.CreatedAtUtc,
                 Status = o.Status,
-                TotalAmount = o.OrderItems.Sum(oi => oi.Quantity * oi.UnitPrice)
+                TotalAmount = o.OrderItems.Sum(oi => oi.Quantity * oi.UnitPrice),
+                ProductNames = string.Join(", ", o.OrderItems.Select(oi => oi.Product.Name))
             })
             .ToListAsync();
 

@@ -9,5 +9,6 @@ namespace CibusMed_App.Api.DTOs
         public DateTime CreatedAtUtc { get; set; }
         public OrderStatus Status { get; set; }
         public decimal TotalAmount { get; set; }
+        public string ProductNames { get; set; } = string.Empty;
     }
 }

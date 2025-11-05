@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pantazos\\Desktop\\CibusMed_App\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\pantazos\\source\\repos\\order-mgnt-web-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE5ACAB-6699-4116-85F6-9EC38B55C5DF}|CibusMed_App.csproj|c:\\users\\pantazos\\source\\repos\\order-mgnt-web-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDE5ACAB-6699-4116-85F6-9EC38B55C5DF}|CibusMed_App.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pantazos\\source\\repos\\order-mgnt-web-api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\pantazos\\source\\repos\\order-mgnt-web-api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-04T22:19:52.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

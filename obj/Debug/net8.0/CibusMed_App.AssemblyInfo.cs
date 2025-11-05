@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("983faf15-8837-4ff3-940a-99eb0bb2532e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CibusMed_App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8ced37f2f4fb5259305cff5f3123f0ed686d324")]
 [assembly: System.Reflection.AssemblyProductAttribute("CibusMed_App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CibusMed_App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
